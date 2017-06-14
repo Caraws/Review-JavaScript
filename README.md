@@ -5,4 +5,4 @@
 
 | Title | Title |
 | ------ | ------ |
-| [运算符的小技巧](https://caraws.github.io/Review-JavaScript/issues/1) | |
+| [运算符的小技巧](https://github.com/Caraws/Review-JavaScript/issues/1) | |
