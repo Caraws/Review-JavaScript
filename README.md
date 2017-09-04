@@ -13,7 +13,7 @@
 
 | Title | Title |
 | :------: | :------: |
-| [预览摄像头画面](https://github.com/Caraws/Review-JavaScript/issues/3) |
+| [预览摄像头画面](https://github.com/Caraws/Review-JavaScript/issues/3) | [Base64 转Blob](https://github.com/Caraws/Review-JavaScript/issues/6) |
 
 ### CSS
 | Title | Title |
