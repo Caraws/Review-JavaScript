@@ -63,9 +63,7 @@ const partition = (items, left, right) => {
 }
 // 排序
 const quickSortTwo = (items, left, right) => {
-
     let index;
-
     if (items.length > 1) {
 
         left = typeof left != "number" ? 0 : left;
@@ -80,9 +78,7 @@ const quickSortTwo = (items, left, right) => {
         if (index < right) {
             quickSortTwo(items, index, right);
         }
-
     }
-
     return items;
 }
 
