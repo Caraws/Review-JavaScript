@@ -30,16 +30,6 @@ console.log(quickSort(array))
 console.timeEnd('快排') 
 
 
-console.time('原生');
-array.sort((a, b) => {
-    if (a > b) return 1
-    else if (a < b) return -1
-    else return 0
-});
-console.log(array);
-// 5ms 左右
-console.timeEnd('原生') 
-
 
 console.time('快排2');
 // 互换
@@ -50,14 +40,11 @@ const swap = (items, firstIndex, secondIndex) => {
 }
 // 分区
 const partition = (items, left, right) => {
-
     let pivot = items[Math.floor((right + left) / 2)],
         i = left,
         j = right;
 
-
     while (i <= j) {
-
         while (items[i] < pivot) {
             i++;
         }
@@ -101,3 +88,14 @@ const quickSortTwo = (items, left, right) => {
 
 console.log(quickSortTwo(array));
 console.timeEnd('快排2');
+
+
+console.time('原生');
+array.sort((a, b) => {
+    if (a > b) return 1
+    else if (a < b) return -1
+    else return 0
+});
+console.log(array);
+// 5ms 左右
+console.timeEnd('原生') 
