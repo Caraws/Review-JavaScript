@@ -25,6 +25,9 @@ console.log(num2); // -11
 let num = 2;
 let num2 = num << 2;
 
+// 效果同下
+ num2 = num * 4;
+
 console.log(num2); // 8
 ```
 
@@ -36,6 +39,9 @@ console.log(num2); // 8
 ```
 let num = 12;
 let num2 = num >> 2;
+
+// 效果同下
+num2 = num / 4;
 
 console.log(num2) // 3
 ```
