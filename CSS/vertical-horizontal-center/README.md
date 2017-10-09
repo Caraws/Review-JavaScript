@@ -36,7 +36,7 @@
 ```
 
 效果如下:
-[!absolute-center](http://orf90agxq.bkt.clouddn.com/github/absoluteCenter/WechatIMG4.jpeg)
+![absolute-center](http://orf90agxq.bkt.clouddn.com/github/absoluteCenter/1507561071445.jpg)
 
 > 之前一直不懂绝对定位的工作机制到底是怎样, 下面是查资料看到的:
 
