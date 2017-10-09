@@ -21,4 +21,4 @@
 ### CSS
 | Title | Title |
 | :------: | :------: |
-| [CSS盒模型](https://github.com/Caraws/Review-JavaScript/issues/4) | [水平垂直居中]](https://github.com/Caraws/Review-JavaScript/issues/12) |
+| [CSS盒模型](https://github.com/Caraws/Review-JavaScript/issues/4) | [水平垂直居中](https://github.com/Caraws/Review-JavaScript/issues/12) |
