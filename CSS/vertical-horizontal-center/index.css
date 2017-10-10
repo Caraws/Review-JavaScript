@@ -1,9 +1,12 @@
 *{
-	margin: 0;
+	margin: 0 auto;
 	padding: 0;
 }
+html,body{
+	position: relative;
+}
 .wrapper {
-	width: 100%;
+	width: 200px;
 	height: 200px;
 	position: relative;
 	border: thin solid black;
@@ -12,7 +15,7 @@ div.wrapper > div{
 	text-align: center;
 	color: #fff;
 }
-.absolut-center{
+.absolute-center{
 	position: absolute;
 	top: 0;
 	right: 0;
@@ -22,4 +25,69 @@ div.wrapper > div{
 	background: deepskyblue;
 	height: 100px;
 	line-height: 100px;
+}
+
+.fixed-center{
+	width: 200px;
+	height: 200px;
+	position: fixed;;
+	z-index: 999;
+	background: rgba(0, 0, 0, .3);
+	top: 0; 
+	left: 0;
+	bottom: 0; 
+	right: 0; 
+	margin: auto;
+	line-height: 200px;
+	color: #fff;
+	text-align: center;
+}
+
+.absolute-left {
+	position: absolute;
+	left: 20px;
+	right: auto;
+	margin: auto;
+	width: 150px;
+	height: 80px;
+	background: red;
+	color: #fff;
+	text-align: center;
+	line-height: 80px;
+}
+.absolute-right {
+	position: absolute;
+	left: auto;
+	right: 20px;
+	margin: auto;
+	width: 150px;
+	height: 80px;
+	background: green;
+	color: #fff;
+	text-align: center;
+	line-height: 80px;
+}
+
+.wrapper-responsive{
+	position: relative;
+	top: 300px;
+	width: 200px;
+	height: 200px;
+	border: thin solid black;
+}
+.absolute-responsive{
+	position: absolute;
+	top: 0;
+	right: 0;
+	bottom: 0;
+	left: 0;
+	margin: auto;
+	width: 60%;
+	height: 60%;
+	min-width: 50px;
+	max-width: 150px;
+	padding: 10px;
+	text-align: center;
+	color: #fff;
+	background: skyblue;
 }
