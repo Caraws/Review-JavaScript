@@ -1,3 +1,6 @@
+/* 
+	Create By Cara on 2017-10-9
+ */
 *{
 	margin: 0 auto;
 	padding: 0;
@@ -15,6 +18,8 @@ div.wrapper > div{
 	text-align: center;
 	color: #fff;
 }
+
+/* 绝对定位居中 */
 .absolute-center{
 	position: absolute;
 	top: 0;
@@ -27,6 +32,7 @@ div.wrapper > div{
 	line-height: 100px;
 }
 
+/* 固定定位居中 */
 .fixed-center{
 	width: 200px;
 	height: 200px;
@@ -38,11 +44,10 @@ div.wrapper > div{
 	bottom: 0; 
 	right: 0; 
 	margin: auto;
-	line-height: 200px;
 	color: #fff;
-	text-align: center;
 }
 
+/* 绝对定位居左 */
 .absolute-left {
 	position: absolute;
 	left: 20px;
@@ -55,6 +60,7 @@ div.wrapper > div{
 	text-align: center;
 	line-height: 80px;
 }
+/* 绝对定位居右 */
 .absolute-right {
 	position: absolute;
 	left: auto;
@@ -68,6 +74,7 @@ div.wrapper > div{
 	line-height: 80px;
 }
 
+/* 自适应绝对定位居中 */
 .wrapper-responsive{
 	position: relative;
 	top: 300px;
@@ -90,4 +97,95 @@ div.wrapper > div{
 	text-align: center;
 	color: #fff;
 	background: skyblue;
+}
+
+/* tabel 居中 */
+.wrapper-table{
+	margin-top: 600px;
+	display: table;
+	height: auto;
+	width: 200px;
+	height: 200px;
+	border: thin solid black;
+}
+.table-center{
+	width: 80px;
+	background: orange;
+	color: #fff;
+}
+
+/* tabel-cell 居中 */
+.wrapper-table-cell{
+	margin-top: 600px;
+	display: table-cell;
+	height: auto;
+	width: 200px;
+	height: 200px;
+	border: thin solid black;
+	vertical-align: middle;
+}
+.table-center-cell{
+	width: 100px;
+	background: #FFD34E;
+	color: #fff;
+}
+
+/* 负外边距 */
+.wrapper-margin{
+	position: relative;
+	top: 100px;
+	border: thin solid black;
+	width: 200px;
+	height: 200px;
+}
+.margin-center{
+	width: 100px;
+	height: 100px;
+	background: #105B63;
+	position: absolute;
+	top: 50%;
+	left: 50%;
+	margin: -50px auto auto -50px;
+	color: #fff;
+	text-align: center;
+	line-height: 100px;
+}
+
+/* 变形 */
+.wrapper-transform{
+	position: relative;
+	top: 200px;
+	border: thin solid black;
+	width: 200px;
+	height: 200px;
+}
+.transform-center{
+	width: 100px;
+	height: 100px;
+	background: #BD4932;
+	position: absolute;
+	top: 50%;
+	left: 50%;
+	-webkit-transform: translate(-50%, -50%);
+	-ms-transform: translate(-50%, -50%);
+	-o-transform: translate(-50%, -50%);
+	transform: translate(-50%, -50%);
+	color: #fff;
+	text-align: center;
+}
+
+/* Flexbox*/
+.wrapper-flex{
+	margin-top: 500px;
+	width: 200px;
+	height: 200px;
+	border: thin solid black;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+}
+.flex-center{
+	background: grey;
+	color: #fff;
+	text-align: center;
 }
