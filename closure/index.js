@@ -45,12 +45,14 @@ let mutl = (function () {
     }
 })()
 
+// 相同参数时不再计算
 console.log(mutl(1, 2, 3, 2)); // 12
 console.log(mutl(1, 2, 3, 2)); // 12
 
 // 提炼
 let betterMult = (function () {
     let cache = {};
+    // 封闭 calculate 函数
     let calculate = function () {
         let a = 1;
         for(let i = 0, len = arguments.length; i < len; i++) {
@@ -68,4 +70,4 @@ let betterMult = (function () {
     }
 })()
 
-console.log(betterMult(1, 2, 3))
+console.log(betterMult(1, 2, 3)); // 6
